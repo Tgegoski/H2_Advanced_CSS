@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden; */
+  /* position:fixed; */
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+header {
+    background-color:cadetblue;
+    height: 120px;
+    padding: 30px;
+    display:flex;
+    justify-content: flex-start;
+    /* overflow: hidden; */
+}
+
+header h1 {
+  display: flex;
+  font-size: 48px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* float:left; */
+  flex: start;
+  color:white; 
+}
+nav {
+  background-color: #818181;
+  justify-content: flex-end;
+  display: flex;
+  padding: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  z-index: 2;
+  position:relative;
+}
+
+ul {
+  display: flex;
+  padding:5px;
+  list-style-type: none;
+}
+
+ul a {
+  display:flex;
+  margin:8px 30px 10px 30px;
+  justify-content: flex-end;
+  color:white;
+  font-size:xx-large;
+}
+
+.image {
+  max-width:100%;
+  width:70vw;
+  background-image: url(.\assets\20201006_184519wilm20wc.jpg);
+  background-color: mediumpurple;
+  height:auto;
+  background-position:100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.container {
+  width:100%;
+}
+
+.aside {
+  height: 75%; 
+  width: 180px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 3; 
+  top: 25; /* Stay at the top */
+  left: 0;
+  background-color:#818181; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow: auto;
+  padding-top: 20px;
+  border: 2px;
+  border-color: white;
+  order: 3;
+}
+
+/* The navigation menu links */
+h2, h3, h4, h5  {
+  padding: 50px 12px 50px 18px;
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+  display: block;
+}
+
+p {
+  font-size:larger;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#818181;
+  background-color:thistle;
+  padding: 50px;
+  display:flex;
+  /* flex-wrap:wrap-reverse; */
+  text-align: right;
+  justify-content: flex-end;
+  width: 100%;
+  /* margin-left: 25px;
+  margin-right: 10px; */
+  margin-top: 0;
+}
+
+.footer {
+  background-color:cadetblue;
+  color: white;
+  padding: 40px;
+}
+
+
+/* .column {
+    float: left;
+    padding: 15px;
+}
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: 25%;
+}
+  
+.content {
+    width: 75%;
+} */
+
+
+
+/* #sidebar, #content {
+    height: 100%;
+    overflow: auto;
+    float: left;
+    transition: width .35s;
+    border: solid 2px black;
+}
+#sidebar {
+    background-color: beige;
+    width: 30%;
+} */
