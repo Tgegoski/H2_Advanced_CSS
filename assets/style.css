@@ -57,18 +57,15 @@ header h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
-/* .container {
-  width: 100%;
-} */
 
 .aside {
-  flex-flow: column;
+  /* flex-flow: column; */
   margin-top: 0px;
   margin-bottom: 0px;
   padding-right: 10px;
   padding-left: 2px;
   padding-top: 100px;
-  padding: bottom 100px;
+  padding-bottom: 100px;
   display: flex;
   width: 260px;
   justify-content: flex-start;
@@ -80,13 +77,14 @@ header h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
-.content-1, .content-2, .content-3, .content-4, .content-5{
-  flex-direction: row;
+.container {
   display: flex;
+  flex-flow: row;
+  width: 100%;
 }
+
 .description-area {
-  flex-direction: row;
+  /* flex-direction: row; */
   text-align: right;
   display: flex;
   justify-content: flex-end;
@@ -104,4 +102,43 @@ p {
   width: 1320px;
   text-align: right;
   margin-top: 0;
+}
+.example-title {
+  font-size:15px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
+}
+.example-label {
+  background-color:gray;
+  display: flex;
+  align-items:flex-start;
+}
+.example-area{
+  background-color: cadetblue;
+  justify-content:flex-end;
+  flex-direction:row;
+  display: flex;
+  text-align: right;
+  width: 1320px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.contact-area {
+  background-color: thistle;
+  justify-content: flex-end;
+  flex-direction: row;
+  display: flex;
+  text-align: right;
+  width: 1320px;
+
+}
+
+.contact-info {
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+color: #818181;
+font-size: 20px;
 }
