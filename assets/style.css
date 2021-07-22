@@ -46,7 +46,7 @@ header h1 {
 
 .image {
   max-width: 100%;
-  background-image: url(.\assets\20201006_184519wilm20wc.jpg);
+  background-image: url(./assets/20201006_184519wilm20we.jpg);
   height: auto;
   background-position: 100% 0;
   background-repeat: no-repeat;
@@ -99,7 +99,7 @@ p {
   padding: 35px;
   display: flex;
   justify-content: flex-end;
-  text-align: right;
+  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   width: 1320px;
@@ -107,24 +107,31 @@ p {
 
 .portfolio-area {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 0;
 }
-.samples {
+.card {
   font-size: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #818181;
-  padding: 480px;
-  display: flex;
+  padding: 10px;
+  /* padding:10px; */
+  display: block;
   /* justify-content: flex-end; */
-  text-align: right;
+  text-align: left;
   margin-top: 0;
   margin-bottom: 0;
   background-color: #818181;
   width: 1320px;
 }
-
+.card img {
+  width: 30%;
+  height: 70%;
+}
 #contact-area {
   display: flex;
   font-size: 0;
